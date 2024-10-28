@@ -1,5 +1,5 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/project-1.jpg";
+import project2 from "../assets/projects/project-2.jpg";
 // import project3 from "../assets/projects/project-3.jpg";
 // import project4 from "../assets/projects/project-4.jpg";
 
@@ -9,64 +9,59 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2022 - 2024",
+    role: "Web Development Instructor",
+    company: "Codeup",
+    description: `Deliver custom web development curriculum through lectures, code walk-throughs, and exercises. Provided tailored support to individual students in 1:1s and oﬃce hours. Contributed to improving the lives of 200+ students through education in a fast-paced and team-oriented
+environment`,
+    technologies: ["JavaScript", "Java", "HTML", "CSS", "Spring", "Thymeleaf", "Bootstrap"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Software Engineer",
+    company: "General Assembly Software Engineering Immersive",
+    description: `Completed 500+ hours of expert-led instruction in JavaScript, Python, MongoDB, Node, React, and hands-on
+learning of web and mobile application fundamentals using the industry's most in demand technologies. Gained experience in contemporary front and backend programming languages, tools, and methodologies. Developed 10+ projects using MERN stack, CRUD operations, and RESTful API’s. Developed clean, standards-based code, emphasizing advocacy for end-users for high quality software operation`,
+    technologies: ["JavaScript", "Python", "React", "Node", "MongoDB", "HTML", "CSS", "Bootstrap"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2020 - 2022",
+    role: "Web Developer",
+    company: "TJ Transportation LLC",
+    description: `Built a website that grew company revenue 15% and automated all the manual work. Added new features for fleet management, record keeping, invoicing, expense tracking, driver tracking. Maintained website and its server components, fixing bugs and improving UI`,
+    technologies: ["JavaScript", "HTML", "CSS"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    // image: project1,
+    title: "Restaura",
+    image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Tailwind"],
   },
   {
-    title: "Task Management App",
-    // image: project2,
+    title: "Team5 Restaurant",
+    image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    // image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    // image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "A web application that enables restaurant customers to book a table, order their favorite meal, receive confirmation of their reservation and their order via email with the option of modifying or canceling.",
+    technologies: ["React", "Bootstrap", "Node.js", "Express", "MongoDB"],
+  }
+  // {
+  //   title: "Portfolio Website",
+  //   // image: project3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  // },
+  // {
+  //   title: "Blogging Platform",
+  //   // image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
