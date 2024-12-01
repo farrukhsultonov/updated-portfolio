@@ -3,18 +3,25 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like JavaScript, React and Next.js, as well as back-end technologies like Java, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including JavaScript, Java, React, Node.js, MySQL, PostgreSQL, MongoDB and Next.js. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
+  {
+    year: "2024 - Present",
+    role: "Software Engineer",
+    company: "DigitalVertex Enterprises",
+    description: `Collaborated with a team to develop a CRM project, an all-in-one solution for small and medium-sized businesses. CRM includes features such as finance, schedule, inventory, client management, telephony calls and messages, planning, and more.`,
+    technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB", "GraphQL", "Docker", "Next.js"],
+  },
   {
     year: "2022 - 2024",
     role: "Web Development Instructor",
     company: "Codeup",
-    description: `Deliver custom web development curriculum through lectures, code walk-throughs, and exercises. Provided tailored support to individual students in 1:1s and oﬃce hours. Contributed to improving the lives of 200+ students through education in a fast-paced and team-oriented
-environment`,
+    description: `Deliver custom web development curriculum through lectures, code walk-throughs, and exercises. Provided tailored support to individual students in 1:1s and oﬃce hours. Contributed to improving the lives of 200+ students through education in a fast-paced and team-oriented environment`,
     technologies: ["JavaScript", "Java", "HTML", "CSS", "Spring", "Thymeleaf", "Bootstrap"],
   },
   {
@@ -36,11 +43,20 @@ learning of web and mobile application fundamentals using the industry's most in
 
 export const PROJECTS = [
   {
+    title: "GrabIt",
+    image: project6,
+    description:
+      "Developed GrabIt, a full-stack application that enables users to create, edit, and delete item postings for sale, featuring a seamless user interface, robust backend integration, and efficient data management for an intuitive marketplace experience.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Chakra-UI"],
+    link: "https://grabit-nuhq.onrender.com/",
+  },
+  {
     title: "Restaura",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Designed and developed a modern, user-friendly front-end UI for a restaurant application, featuring intuitive navigation, responsive design, and dynamic menu displays to enhance customer engagement.",
     technologies: ["React", "Tailwind"],
+    link: "https://restaura-delta.vercel.app/",
   },
   {
     title: "Team5 Restaurant",
@@ -48,6 +64,7 @@ export const PROJECTS = [
     description:
       "A web application that enables restaurant customers to book a table, order their favorite meal, receive confirmation of their reservation and their order via email with the option of modifying or canceling.",
     technologies: ["React", "Bootstrap", "Node.js", "Express", "MongoDB"],
+    link: "https://github.com/Team5Go",
   },
   {
     title: "Watch Store",
@@ -55,6 +72,7 @@ export const PROJECTS = [
     description:
       "Online Store for watch lovers, that allows user to have CRUD ability to view, add, edit and delete product. Users have to create an account and sign in before being able to access all the features of the web.",
     technologies: ["JavaScript", "HTML", "CSS", "Bootstrap", "Express", "NodeJS", "MongoDB", "Mongoose"],
+    link: "https://github.com/farrukhsultonov/Watch-Store",
   },
   {
     title: "Simon Game",
@@ -62,6 +80,7 @@ export const PROJECTS = [
     description:
       "Do you love challenging yourself? This game tests your intelligence and ability to remember by remembering and repeating a sequence of colors.",
     technologies: ["JavaScript", "HTML", "CSS"],
+    link: "https://farrukhsultonov.github.io/simon-game/",
   },
     {
     title: "Tic Tac Toe",
@@ -69,6 +88,7 @@ export const PROJECTS = [
     description:
       "It's you against the computer 😲! You have to beat the computer in a tic tac toe game to win!",
     technologies: ["JavaScript", "HTML", "CSS"],
+    link: "https://farrukhsultonov.github.io/Tic-Tac-Toe/",
   },
 ];
 
