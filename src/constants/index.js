@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like JavaScript, React and Next.js, as well as back-end technologies like Java, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -15,14 +16,31 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "DigitalVertex Enterprises",
     description: `Collaborated with a team to develop a CRM project, an all-in-one solution for small and medium-sized businesses. CRM includes features such as finance, schedule, inventory, client management, telephony calls and messages, planning, and more.`,
-    technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB", "GraphQL", "Docker", "Next.js"],
+    technologies: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "GraphQL",
+      "Docker",
+      "Next.js",
+    ],
   },
   {
     year: "2022 - 2024",
     role: "Web Development Instructor",
     company: "Codeup",
     description: `Deliver custom web development curriculum through lectures, code walk-throughs, and exercises. Provided tailored support to individual students in 1:1s and oﬃce hours. Contributed to improving the lives of 200+ students through education in a fast-paced and team-oriented environment`,
-    technologies: ["JavaScript", "Java", "HTML", "CSS", "Spring", "Thymeleaf", "Bootstrap"],
+    technologies: [
+      "JavaScript",
+      "Java",
+      "HTML",
+      "CSS",
+      "Spring",
+      "Thymeleaf",
+      "Bootstrap",
+    ],
   },
   {
     year: "2021 - 2022",
@@ -30,7 +48,16 @@ export const EXPERIENCES = [
     company: "General Assembly Software Engineering Immersive",
     description: `Completed 500+ hours of expert-led instruction in JavaScript, Python, MongoDB, Node, React, and hands-on
 learning of web and mobile application fundamentals using the industry's most in demand technologies. Gained experience in contemporary front and backend programming languages, tools, and methodologies. Developed 10+ projects using MERN stack, CRUD operations, and RESTful API’s. Developed clean, standards-based code, emphasizing advocacy for end-users for high quality software operation`,
-    technologies: ["JavaScript", "Python", "React", "Node", "MongoDB", "HTML", "CSS", "Bootstrap"],
+    technologies: [
+      "JavaScript",
+      "Python",
+      "React",
+      "Node",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+    ],
   },
   {
     year: "2020 - 2022",
@@ -42,6 +69,23 @@ learning of web and mobile application fundamentals using the industry's most in
 ];
 
 export const PROJECTS = [
+  {
+    title: "Chatty",
+    image: project7,
+    description:
+      "A real-time chat web application with features including user account creation, secure authentication, instant messaging with Socket.io integration, dynamic UI updates, and Cloudinary-powered image upload for seamless media sharing.",
+    technologies: [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Cloudinary",
+      "Socket.io",
+    ],
+    link: "https://chatty-wszf.onrender.com/",
+  },
   {
     title: "GrabIt",
     image: project6,
@@ -71,7 +115,16 @@ export const PROJECTS = [
     image: project3,
     description:
       "Online Store for watch lovers, that allows user to have CRUD ability to view, add, edit and delete product. Users have to create an account and sign in before being able to access all the features of the web.",
-    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap", "Express", "NodeJS", "MongoDB", "Mongoose"],
+    technologies: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Express",
+      "NodeJS",
+      "MongoDB",
+      "Mongoose",
+    ],
     link: "https://github.com/farrukhsultonov/Watch-Store",
   },
   {
@@ -82,7 +135,7 @@ export const PROJECTS = [
     technologies: ["JavaScript", "HTML", "CSS"],
     link: "https://farrukhsultonov.github.io/simon-game/",
   },
-    {
+  {
     title: "Tic Tac Toe",
     image: project5,
     description:
@@ -94,5 +147,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   email: "farruhsultanov1998@gmail.com",
-  linkedIn: "LinkedIn"
+  linkedIn: "LinkedIn",
 };
